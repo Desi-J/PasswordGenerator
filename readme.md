@@ -14,8 +14,6 @@ This is a solution to the [Password generator app](https://www.frontendmentor.io
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 This is a Password Generator. I added the extra feature of being able to type in the input box and get updates on the strength of the password.
@@ -33,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/password-generator-html-css-js-iT3vX3Qb2Q)
+- [Live Site](https://password-generator-002.netlify.app/))
 
 ### Built with
 
@@ -163,8 +161,7 @@ function handleCheck(e) {
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Desi-J](https://www.frontendmentor.io/profile/Desi-J))
 
 ## Acknowledgments
 
