@@ -286,7 +286,7 @@ input[type="checkbox"] {
   display: flex;
   align-items: center;
 }
-.strength-text {
+#strength-text {
   font-size: 0.9rem;
   text-transform: uppercase;
 }
