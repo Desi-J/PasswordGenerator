@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/password-generator-html-css-js-iT3vX3Qb2Q)
-- [Live Site](https://password-generator-002.netlify.app/))
+- [Live Site](https://password-generator-002.netlify.app/)
 
 ### Built with
 
@@ -165,4 +165,5 @@ function handleCheck(e) {
 
 ## Acknowledgments
 
-Shout out to YouTube tutorials for making all of this possible.
+- Shout out to YouTube tutorials for making all of this possible.
+- Thanks to [codesandbox](https://codesandbox.io/)! Their awesome editor allowed me to build this project in the cloud and deploy to github.
