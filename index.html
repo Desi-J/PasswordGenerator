@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- JS -->
+    <script defer src="./main.js"></script>
+    <title>Password Generator</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1 class="app-title">Password Generator</h1>
+
+    <div class="container">
+      <section class="password">
+        <input id="password-text" type="text" placeholder="P4$5W0rD!" />
+        <span class="copy-text hidden">COPIED</span>
+        <img
+          id="copy-icon"
+          src="./images/icon-copy.svg"
+          alt="click to copy"
+          title="click to copy"
+        />
+      </section>
+      <form id="form">
+        <label for="characters" class="slider-label">
+          Character Length
+          <span id="length">10</span>
+        </label>
+        <div class="slider-wrapper">
+          <input
+            value="10"
+            class="slider"
+            type="range"
+            name="characters"
+            id="slider"
+            min="5"
+            max="15"
+          />
+          <div id="sliderProgress"></div>
+        </div>
+        <div class="checkboxes">
+          <label>
+            <input type="checkbox" name="uppercase" id="uppercase" />
+            <span class="checkmark"></span>
+            Include UpperCase Letters
+          </label>
+          <label>
+            <input type="checkbox" name="lowercase" id="lowercase" checked />
+            <span class="checkmark checked"></span>
+            Include LowerCase Letters
+          </label>
+          <label>
+            <input type="checkbox" name="numbers" id="numbers" />
+            <span class="checkmark"></span>
+            Include Numbers
+          </label>
+          <label>
+            <input type="checkbox" name="symbols" id="symbols" />
+            <span class="checkmark"></span>
+            Include Symbols
+          </label>
+        </div>
+
+        <div class="strength-container">
+          <h3 class="strength-word">Strength</h3>
+          <div class="strength-indicator">
+            <h2 id="strength-text">N/A</h2>
+            <div class="bars">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </div>
+
+        <button>
+          Generate
+          <img src="./images/icon-arrow-right.svg" />
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
