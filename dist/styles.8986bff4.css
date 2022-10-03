@@ -264,7 +264,7 @@ input[type="checkbox"] {
 .checkmark.checked {
   background-color: var(--primary);
   border-color: var(--primary);
-  background-image: url("./images/icon-check.svg");
+  background-image: url("/icon-check.72789738.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 16px;
@@ -369,3 +369,6 @@ button:hover img {
     margin-top: 32px;
   }
 }
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
