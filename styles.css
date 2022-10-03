@@ -50,17 +50,10 @@ body {
   max-width: 540px;
 }
 
-section,
+.password,
 form {
   background-color: var(--dark);
   padding: 1rem;
-}
-
-section {
-  margin-bottom: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* TITLE */
